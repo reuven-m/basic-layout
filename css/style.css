@@ -2,6 +2,7 @@
   padding: 0;
     margin: 0;
     border-radius: 20px;
+    box-sizing: border-box;
 }
 .container {
     background: #f2f2f2;
@@ -18,8 +19,17 @@ header{
     background: #004466;
 }
 h1{    
-  padding: 20px;
-    margin: 20px; 
+    padding: 20px;
+    margin: 20px;
+    color: #fff;
+}
+h1:after{
+    height: 5px;
+    width: 100px;
+    background: #fff;
+    display: block;
+    content: " ";
+    margin: 0 auto;
 }
 ul li{
     list-style: none;
@@ -30,22 +40,42 @@ ul li{
 links{
        
 }
+
+ul li:last-child{
+    background: green;
+}
+main{
+    border: 1px solid red;
+}
+.links{
+       
+}
 .hero{
-    height: 500px;
     background: #669999;
     clear: both;
-   
+}
+img{
+    width: 100%;
 }
 footer{
     background: #4e4a4a;
     height: 100px;
 }
 
+aside.sidebar{
+    width: 399px;
+     background: #669999;
+    float: left;
+}
 section.content{
-    float: right;   
-    width: 600px;  
-    background: yellow;
+    float: left;
+    width: 399px;
 }
 
-
-
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both;
+}
