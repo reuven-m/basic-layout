@@ -1,12 +1,13 @@
 *{
   padding: 0;
     margin: 0;
+    border-radius: 20px;
 }
 .container {
     background: #f2f2f2;
     text-align: center;  
     min-height: 400px;
-    border-radius: 50px;  
+    border-radius: 30px;  
     font-family: 'Open Sans', sans-serif;
     font-family: 'Armata', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -22,13 +23,15 @@ h1{
 }
 ul li{
     list-style: none;
-    width: 400px;    
+    width: 200px;
+    background: blue;
 }
+
 links{
        
 }
 .hero{
-    height: 150px;
+    height: 500px;
     background: #669999;
     clear: both;
    
@@ -37,14 +40,11 @@ footer{
     background: #4e4a4a;
     height: 100px;
 }
-asaid.saidebar{   
-    width: 400px;
-     background: #669999;
-    float: left;
-}
+
 section.content{
-    float: right;
-    width: 400px;  
+    float: right;   
+    width: 600px;  
+    background: yellow;
 }
 
 
